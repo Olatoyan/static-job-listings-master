@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+.container {
+  background-color: #effafa;
+  min-height: 100vh;
+}
+.header {
+  background: url(../images/bg-header-desktop.svg), #5ba4a4;
+  height: 15rem;
+  /* position: relative; */
+}
+
+.input__container {
+  margin-top: -3rem;
+  padding: 0 3rem;
+}
+.input__box {
+  max-width: 140rem;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 3rem 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.input__field {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.input__name {
+  display: flex;
+  align-items: center;
+  /* gap: 1rem; */
+  background-color: #eef6f6;
+  /* padding: 0.4rem 0.8rem; */
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.input__text {
+  font-size: 1.5rem;
+  padding: 0.4rem 0.8rem;
+
+  font-weight: 700;
+  color: #5ba4a4;
+}
+.remove__icon {
+  background-color: #5ba4a4;
+  padding: 0.5rem;
+}
+.remove__icon:hover {
+  background-color: #2c3a3a;
+}
+
+.clear {
+  margin-left: auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #5ba4a4;
+}
+.clear:hover {
+  text-decoration: underline;
+}
+.job__section {
+  margin: 0 auto;
+  max-width: 140rem;
+  padding: 10rem 3rem;
+}
+
+.con {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.job__container {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2.5rem;
+  border-radius: 1rem;
+}
+.job__img {
+  height: 10rem;
+  width: 10rem;
+}
+
+.job__description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.job__heading__box {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.job__company {
+  color: #5ba4a4;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.job__new {
+  background-color: #5ba4a4;
+}
+
+.job__featured {
+  /* font-size: 1.2rem; */
+  background-color: #2c3a3a;
+}
+.job__title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3a3a;
+}
+
+.job__title:hover {
+  color: #5ba4a4;
+}
+.more__info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.job__skills {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.skill {
+  color: #5ba4a4;
+  font-weight: 700;
+  font-size: 1.3rem;
+  background-color: #eef6f6;
+  padding: 0.8rem;
+}
+
+.skill:hover {
+  background-color: #5ba4a4;
+  color: #fff;
+}

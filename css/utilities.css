@@ -1,0 +1,36 @@
+.featured__border {
+  border-left: 0.6rem solid #5ba4a4;
+}
+
+.hidden {
+  display: none;
+}
+
+.job__container,
+.input__box {
+  box-shadow: 0px 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.skill,
+.job__title,
+.remove__icon,
+.clear {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.job__date,
+.job__type,
+.job__location {
+  font-size: 1.4rem;
+  color: hsl(180, 8%, 52%);
+}
+
+.job__new,
+.job__featured {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  /* font-size: 1.2rem; */
+  color: #fff;
+  text-transform: uppercase;
+}
